@@ -58,12 +58,16 @@ b=int(input("enter your number2:"))
 am=input("enter your operator:")
 c=0
 if am=="+":
-    a+b=c
+    c = a+b
+    print(a + b)
 elif am=="-":
-    a-b=c
+    c = a-b
+    print(a-b)
 elif am=="*":
-    a*b=c
+    c=a*b
+    print(a*b)
 elif am=="/":
-    a/b=c
+    c=a/b
+    print(a/c)
 else:
     print("operator is wrong!!")
