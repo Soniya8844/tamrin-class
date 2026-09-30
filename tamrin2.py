@@ -23,18 +23,18 @@ print("="*60)
 #سوال3: برنامه ای بنویسید که یک عدد از کاربر گرفته و
 # . آن را به صورت اعداد فارسی نمایش دهد 
 #راهنمایی : از استرینگ ها کمک بکیرید
-
+"۰۱۲۳۴۵۶۷۸۹"
 Number=input("Enter your number:")
-Number=Number.replace("0","\u06F0")
-Number=Number.replace("1","\u06F1")
-Number=Number.replace("2","\u06F2")
-Number=Number.replace("3","\u06F3")
-Number=Number.replace("4","\u06F4")
-Number=Number.replace("5","\u06F5")
-Number=Number.replace("6","\u06F6")
-Number=Number.replace("7","\u06F7")
-Number=Number.replace("8","\u06F8")
-Number=Number.replace("9","\u06F9")
+Number=Number.replace("0","۰")
+Number=Number.replace("1","۱")
+Number=Number.replace("2","۲")
+Number=Number.replace("3","۳")
+Number=Number.replace("4","۴")
+Number=Number.replace("5","۵")
+Number=Number.replace("6","۶")
+Number=Number.replace("7","۷")
+Number=Number.replace("8","۸")
+Number=Number.replace("9","۹")
 print(Number)
 
 print("="*60)
