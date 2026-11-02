@@ -14,7 +14,14 @@ print("_"*50)
 #سری فیبوناچی(با استفاده از تابع بازگشتی) 
 #Fn=Fn-1+Fn-2
 
+def fibonachi(num):
+    if num<=2:
+        return num
+    else:
+        return fibonachi(num-1)+fibonachi(num-2)
 
+for i in range (10):
+    print(fibonachi(i))
 
 print("_"*50)
 
